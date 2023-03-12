@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/' element={<ExpenseTracker onClose={()=>{}} onTrue={()=>{}}/>}></Route>
-          <Route path='/home' element={<ShowList/>}></Route>
+          <Route path='/add' element={<ExpenseTracker onClose={()=>{}} onTrue={()=>{}}/>}></Route>
+          <Route path='/' element={<ShowList/>}></Route>
         </Routes>
       </Router>
     </div>
